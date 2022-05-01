@@ -12,18 +12,18 @@ De werking van de webpagina is als volgt
 
 ![oef1.png](docs/oef1.png)
 
-Deel 1: Vacature.
+Deel 1: Vacature (vacature.js)
 Voorzie een klasse Vacature. Elke vacature heeft id, titel, functieomschrijving, profiel, bedrijf en plaats.
 
 Voorzie de nodige getters en setters indien nodig.
 
 Voorzie een functie bevatZoekterm(zoektermen). Deze functie retourneert true indien de titel van de vacature één of meerdere van de zoektermen bevat. Dit mag niet hoofdlettergevoelig zijn.
 
-Test de code door in de init functie de testcode voor Deel 1 uit commentaar te zetten. Zet de testcode vervolgens weer in commentaar.
+Test de code door in de init functie in oefeningvdab.js de testcode voor Deel 1 uit commentaar te zetten. Zet de testcode vervolgens weer in commentaar.
 
 ![oef1_2.png](docs/oef1_2.png)
 
-Deel 2: Vacature repository
+Deel 2: Vacature repository (vacatureRepository.js)
 
 Implementeer de methode voegVacatureToe om één vacature toe te voegen aan de array van vacatures. Maak gebruik van de meegegeven parameters.
 
@@ -37,7 +37,7 @@ Controleer of de testcode de gewenste resultaten geeft. Zet de testcode voor Dee
 
 ![oef1_4.png](docs/oef1_4.png)
 
-Deel 3: VadbApp
+Deel 3: VadbApp (oefeningvdab.js)
 
 Zorg ervoor dat in de init functie een VdabApp object wordt aangemaakt.
 Indien op de knop Zoekterm wordt geklikt moet de zoekterm toegevoegd worden.
@@ -82,14 +82,14 @@ Aan de linkerkant verschijnt een overzicht van alle uitgaven. Aan de rechterkant
 ![oef2_1.PNG](docs/oef2_1.PNG)
 
 Deel 1
-Voorzie een klasse Uitgave. Elke uitgave bestaat uit een id, datum, bedrag, omschrijving en een categorie. Voorzie getters en setters
+Voorzie een klasse Uitgave (uitgave.js). Elke uitgave bestaat uit een id, datum, bedrag, omschrijving en een categorie. Voorzie getters en setters
 
 Test de code door in de init – functie de testcode voor Deel 1 uit commentaar te zetten. Zet de testcode vervolgens weer in commentaar.
 
 ![oef2_8.PNG](docs/oef2_8.PNG)
 
 Deel 2
-Zet de bestaande code voor UitgavenRepository uit commentaar.
+De klasse UitgavenRepository (uitgavenRepository.js).
 
 Implementeer de methode voegUitgaveToe om één uitgave toe te voegen aan de array van uitgaven. Maak gebruik van de meegegeven parameters.
 
@@ -116,7 +116,7 @@ Controleer of de testcode de gewenste resultaten geeft. Zet de testcode voor Dee
 ![oef2_5.PNG](docs/oef2_5.PNG)
 
 Deel 3
-Zet de bestaande code voor BankComponent uit commentaar.
+Klasse BankComponent(bank.js).
 
 Zet de bestaande testcode voor Deel 3 uit commentaar.
 
