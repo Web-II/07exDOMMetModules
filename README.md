@@ -39,9 +39,9 @@ Controleer of de testcode de gewenste resultaten geeft. Zet de testcode voor Dee
 
 Deel 3: VadbApp (oefeningvdab.js)
 
-Zorg ervoor dat in de init functie een VdabApp object wordt aangemaakt.
+Zorg ervoor dat in de init functie een VdabComponent object wordt aangemaakt.
 Indien op de knop Zoekterm wordt geklikt moet de zoekterm toegevoegd worden.
-Maak gebruik van de VdabApp methode voegZoektermToe.
+Maak gebruik van de VdabComponent methode voegZoektermToe.
 
 Implementeer de methode voegZoektermToe.
 
