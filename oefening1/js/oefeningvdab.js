@@ -19,8 +19,8 @@ class VdabComponent {
     return this.#storage;
   }
 
-  voegZoektermToe = () => {
-  };
+  voegZoektermToe(zoekterm) {
+  }
 
   verwijderZoekterm(zoekterm) {
   }
